@@ -1,0 +1,35 @@
+.card img{
+  display: block;
+  margin: 0 auto;
+  max-height: 80vh;
+  width: 100%;
+}
+
+.chat-content{
+  max-height: 96%;
+  overflow-y: scroll;
+  overflow: auto;
+  flex-grow: 2;
+}
+
+.chat-container{
+  height: 85vh;
+}
+
+.container-glob{
+  margin: 0.8rem 0.2rem;
+  padding:0.8rem;
+  width: 80%;
+  border-radius: 10px;
+
+}
+
+.response{
+  background-color: rgb(112, 197, 125);
+  border: rgb(10, 234, 44);
+}
+
+.request{
+  background-color: rgb(112, 136, 197);
+  border: rgb(10, 40, 234);
+}
